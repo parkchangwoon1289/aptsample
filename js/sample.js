@@ -106,6 +106,7 @@ const buttop = document.querySelector(".gotop > div > div");
 const subbut1 = document.querySelector(".submenu1");
 const subbut2 = document.querySelector(".submenu2");
 const subbut3 = document.querySelector(".submenu3");
+const subbut4 = document.querySelector(".submenu4");
 
 const littlebut1 = document.querySelector(".boxlist-1");
 const littlebut2 = document.querySelector(".boxlist-2");
@@ -115,15 +116,16 @@ const littlebut3 = document.querySelector(".boxlist-3");
 
 const but11 = document.querySelector(".main-sec1");
 
-const but33 = document.querySelector(".main-sec5");
+const but33 = document.querySelector(".main-sec6");
 
 const subbut11 = document.querySelector(".main-sec2");
 const subbut22 = document.querySelector(".main-sec3");
 const subbut33 = document.querySelector(".main-sec4");
+const subbut44 = document.querySelector(".main-sec5");
 
 const littlebut11 = document.querySelector(".header");
 const littlebut22 = document.querySelector(".main-sec2");
-const littlebut33 = document.querySelector(".main-sec5");
+const littlebut33 = document.querySelector(".main-sec6");
 
 
 
@@ -153,6 +155,10 @@ subbut2.addEventListener("click", (event) => {
 subbut3.addEventListener("click", (event) => {
     event.preventDefault()
     window.scrollTo({ top: subbut33.offsetTop, behavior: "smooth" })
+})
+subbut4.addEventListener("click", (event) => {
+    event.preventDefault()
+    window.scrollTo({ top: subbut44.offsetTop-50, behavior: "smooth" })
 })
 
 

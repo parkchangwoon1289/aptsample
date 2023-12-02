@@ -3,6 +3,9 @@
     background-color: #fee500;
     color: black;
 }
+.p-center{
+    text-align: center;
+}
 /* 🔺헤더의 페이지마다 다른부분 끝🔺*/
 
 /* main의 공통부분 시작*/
@@ -45,8 +48,10 @@
 }
 
 .table1{
-    border: 3px solid rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
     color: white;
+    border-collapse: collapse;
+    border-spacing: 0px;
     width: 90%;
     font-weight: 300;
     margin: 20px 0 0 50px;
@@ -72,6 +77,8 @@
     display: none;
 }
 .table2{
+    border-collapse: collapse;
+    border-spacing: 0px;
     border: 1px solid rgb(255, 255, 255);
     color: white;
     width: 90%;

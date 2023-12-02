@@ -183,6 +183,18 @@
         border: 1px solid white;
         border-radius: 10px;
     }
+    .swiper{
+        width: 80vw;
+        height: 30vw;
+
+    }
+
+    .swiper-slide img{
+        display: block;
+        width: 70vw;
+        height: 25vw;
+
+    }
 }
 /* 🔺main 전체 공통 - 한장씩,FLEX WRAP관련 사진설정 끝🔺 */
 /* 🔺자동넘김 사진 설정 끝(페이지마다 A,B,C맞춰줘야함)🔺 */
@@ -256,6 +268,10 @@ main h3{
     word-break: keep-all;
 }
 
+.urlsample{
+    color: red;
+    font-size: 30px;
+}
 
 /* 🟡SECTION 마다 폰트설정 끝 -[h1, h2, h3,]🟡 */
 
